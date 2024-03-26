@@ -8,20 +8,20 @@ public class LCD {
     private String cable;
 
     public LCD(){
-        this.Status = "off";
+        this.Status = "Mati";
     }
     
     //buat method yang ada pada soal 
     public void turnOff(){
-        this.Status = "off";
+        this.Status = "Mati";
     }
 
     public void turnOn(){
-        this.Status = "on";
+        this.Status = "Menyala";
     }
 
     public void Freeze(){
-        this.Status = "freeze";
+        this.Status = "Freeze";
     }
 
     public int getVolume(){
